@@ -11,7 +11,7 @@ public class GradController:ControllerBase {
     }
 
     [HttpGet("VratiNis")]
-    public Grad VratisNis() {
+    public Grad VratiNis() {
         return new Grad() {
             ID = 1,
             Naziv = "Nis",
